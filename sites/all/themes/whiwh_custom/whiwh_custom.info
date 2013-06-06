@@ -1,0 +1,24 @@
+name = WHIWH custom theme
+description = 
+version = 1.0
+core = 7.x
+engine = phptemplate
+
+scripts[] = js/jquery.cookie.js
+scripts[] = js/font_resize.js
+scripts[] = js/mobile_nav.js
+
+stylesheets[all][] = stylesheets/screen.css
+
+regions[header_top] = Header top
+regions[header] = Header
+regions[nav_menu] = Main navigation menu
+regions[header_ad] = Header ad
+regions[home_donate_block] = Donate block on home page only
+regions[help] = Help
+
+regions[content] = Content
+regions[sidebar_right] = Sidebar right
+
+regions[footer] = Footer
+regions[footer_bottom] = Footer bottom
