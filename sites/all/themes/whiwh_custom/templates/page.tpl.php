@@ -106,7 +106,7 @@
   <a href="http://www.ontariochc.org/" class="link_ochc" target="_blank"></a>
   <?php print render($page['footer_bottom']); ?>
 <div class="copyright">
-&copy; <?php echo date('Y'); ?> Women's Health in Women's Hands. All Rights Reserved.<br>Site by CCI Studios
+&copy; <?php echo date('Y'); ?> Women's Health in Women's Hands. All Rights Reserved.<br>Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a>
 </div>
   
   </div>
