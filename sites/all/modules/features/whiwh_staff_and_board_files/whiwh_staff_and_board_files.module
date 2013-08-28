@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WHIWH Staff and Board Files feature.
+ */
+
+include_once 'whiwh_staff_and_board_files.features.inc';

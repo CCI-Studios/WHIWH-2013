@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WHIWH Annual Reports feature.
+ */
+
+include_once 'whiwh_annual_reports.features.inc';

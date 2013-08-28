@@ -136,7 +136,7 @@ body
 .nav .menu-name-main-menu > ul							{ padding:0; margin:0; position: relative;z-index: 3;}
 .nav .menu-name-main-menu > ul > li						{ display:block; position:relative; float:left; margin:0 30px 0 0; padding:0; list-style: none outside none;}
 .front .nav .menu-name-main-menu > ul > li						{ margin-right:14px;}
-.nav .menu-name-main-menu > ul > li > a					{ display:block; text-decoration:none; font-size:14px; color:#fff; text-transform:uppercase; line-height:46px;font-weight:bold;}
+.nav .menu-name-main-menu > ul > li > a					{ display:block; text-decoration:none; font-size:14px; color:#6a0e49; text-transform:uppercase; line-height:46px;font-weight:bold;}
 .nav .menu-name-main-menu > ul > li > ul{
 position:absolute;
 left:0;
@@ -241,6 +241,7 @@ a.donate em						{ font-style:normal; font-size:18px; display:block;}
 
 
 .slider_box						{ margin:0; padding:0 0 50px 0;}
+.slider_box img					{ height:300px; display:block; margin:0 auto; }
 .slider_content					{ padding:20px 0 18px 0; position:relative;}
 .slider_content	h1				{  font-size:24px; text-align:center; font-weight:bold; color:#6a0e49; padding:0 0 18px 0;}
 .slider_content	p				{ text-align:center;  font-size:16px; line-height:18px; color:#6a0e49;}

@@ -50,6 +50,7 @@
 <head>
   <?php print $head; ?>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+  <meta name="viewport" content="user-scalable=no,width=device-width" />
   <meta name="google-translate-customization" content="e8bbf3d3d24b9c41-3c7b290558321503-gf0ac45ab47b93978-9"></meta>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>

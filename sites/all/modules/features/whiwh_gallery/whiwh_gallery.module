@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WHIWH Gallery feature.
+ */
+
+include_once 'whiwh_gallery.features.inc';
