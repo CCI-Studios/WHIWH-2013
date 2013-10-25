@@ -218,9 +218,9 @@ color:#6a0e49;
 a.donate{
 	position: absolute;
     right: 0;
-    top: 234px;
+    top: 190px;
     display:none;
-    z-index:5;
+    z-index:6;
 }
 .front .home_donate_block,
 .front a.donate
@@ -471,7 +471,7 @@ float:left;
 #sidebar-right{
 	float:right;
    	margin: 0;
-    padding-top: 120px;
+    padding-top: 130px;
     margin-top:25px;
     padding-left:40px;
     border-left:1px solid #e3dfda;
@@ -519,7 +519,7 @@ ul.tabs li.active a
 	border-top:0;
 }
 #block-block-6{
-  left: 0;
+  left: 40px;
     position: absolute;
     top:-25px;
 	}
@@ -813,6 +813,159 @@ list-style-image:none !important;
 {
 	float:left;
 	margin-right:4px;
+}
+
+.view-carousel
+{
+	text-align:center;
+	color:#6a0e49;
+	background:url(../images/carousel-bg.png) no-repeat center top;
+	margin-bottom:40px;
+
+	.views-row
+	{
+		padding-top:300px;
+		background:no-repeat center top;
+		display:none;
+	}
+
+	.views-row-first
+	{
+		display:block;
+	}
+
+	.views-row-content
+	{
+		position:relative;
+
+		&:before
+		{
+			content:" ";
+			display:block;
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			box-shadow:0 -8px 8px -6px rgba(0,0,0,0.2);
+			height:100%;
+		}
+		&:after
+		{
+			content:" ";
+			display:block;
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			box-shadow:0 8px 8px -6px rgba(0,0,0,0.2);
+			height:100%;
+		}
+	}
+
+	.views-field-title
+	{
+		font-size:24px;
+		font-weight:bold;
+		padding:20px 0 18px 0;
+		position:relative;
+		border-top:1px solid #dcd8d2;
+
+		&:before
+		{
+			content:" ";
+			display:block;
+			position:absolute;
+			left:0;
+			top:0;
+			width:100%;
+			box-shadow:0 0 6px rgba(0,0,0, 0.2);
+		}
+	}
+
+	.views-field-body
+	{
+		min-height:75px;
+		margin:0 40px;
+		text-align:center;
+	}
+
+	.views-row
+	{
+		background-image:url(../images/carousel/1.png);
+	}
+	.views-row-1
+	{
+		background-image:url(../images/carousel/1.png);
+	}
+	.views-row-2
+	{
+		background-image:url(../images/carousel/2.png);
+	}
+	.views-row-3
+	{
+		background-image:url(../images/carousel/3.png);
+	}
+	.views-row-4
+	{
+		background-image:url(../images/carousel/4.png);
+	}
+
+	#carousel-previous
+	{
+		position:absolute;
+		top:150px;
+		left:0;
+		margin-top:-10px;
+	}
+	#carousel-next
+	{
+		position:absolute;
+		top:150px;
+		right:0;
+		margin-top:-10px;
+	}
+
+	#carousel-buttons
+	{
+		text-align:center;
+
+		ul 
+		{
+			list-style:none;
+			padding:10px 8px;
+			margin:0;
+			background:url(../images/carousel-buttons-list-bg.png) repeat-x;
+			border-bottom-left-radius:5px;
+			border-bottom-right-radius:5px;
+			display:inline-block;
+			overflow:hidden;
+			box-shadow:0 5px 10px rgba(0,0,0,0.2);
+
+			li 
+			{
+				list-style:none;
+				padding:0;
+				margin:0 8px;
+				float:left;
+
+				a 
+				{
+					display:block;
+					width:0;
+					height:0;
+					color:transparent;
+					font-size:0;
+					border:6px solid #ebbbc2;
+					border-radius:6px;
+				}
+
+				&.active a 
+				{
+					border-color:#f79541;
+				}
+			}
+		}
+	}
 }
 
 

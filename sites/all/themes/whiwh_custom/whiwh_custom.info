@@ -6,6 +6,7 @@ engine = phptemplate
 
 scripts[] = js/jquery.cookie.js
 scripts[] = js/font_resize.js
+scripts[] = js/carousel.js
 scripts[] = js/mobile_nav.js
 
 stylesheets[all][] = stylesheets/screen.css
